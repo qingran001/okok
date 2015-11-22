@@ -226,11 +226,11 @@ function setup_manyuser_ss()
 	mysql_op "${import_db_sql}"
 }
 
-#setup ss-panel 
+#setup qiuweijian 
 function setup_sspanel()
 {
-	PANEL_ROOT=/root/ss-panel
-	echo -e "download ss-panel ...\n"
+	PANEL_ROOT=/root/qiuweijian
+	echo -e "download qiuweijian ...\n"
 	cd /root
 	git clone https://github.com/qingran001/qiuweijian.git
 	#import pannel sql
